@@ -1,0 +1,42 @@
+git status    //gives the current status of the current repository
+
+
+git init   //The git init command creates a new Git repository. It can be used to convert an existing, 
+             unversioned project to a Git repository or initialize a new, empty repository. 
+
+
+git config --global user.email "your_email@example.com"
+git config --global user.name "helineha"
+//The git config command is a convenience function that is used to set Git configuration values on a 
+global or local project level.
+
+
+
+git clone https://github.com/lostsoul17/gitdemo.git  //url of the branch you want to clone
+
+
+git pull https://github.com/lostsoul17/gitdemo.git   // to pull the contents from the cloned file
+
+
+
+git add *     // to add all the files
+
+
+git commit -m 'hello'     //first we need to commit the changes done in the file of the local system
+
+
+git push -u origin master       //then we will push all the changes made in the remote repository
+
+
+
+git branch branch_name      // creating a new branch of the master branch
+
+
+
+git branch -d b1     //deleting branch b1(branch_name)
+
+
+git add *
+git commit -m 'hello'
+git push -u origin b1  //Add all the changes ,commit and then push the changes into your branch first.
+
